@@ -1,10 +1,12 @@
 const express = require("express");
 // const bollywood=require('./router/data')
-const cors= require("cors")
+const cors = require("cors")
+
 const app = express();
 
 const route = require('./router/Router')
 const Bollywood = require('./router/data')
+
 app.use(cors({
     origin:'*'
 }))
